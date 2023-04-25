@@ -18,7 +18,7 @@ def main():
     sound = Sound()
     level = Level(screen, sound, dashboard)
     menu = Menu(screen, dashboard, level, sound)
-
+    #while
     while not menu.start:
         menu.update()
 

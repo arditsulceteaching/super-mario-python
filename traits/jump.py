@@ -23,3 +23,5 @@ class JumpTrait:
 
     def reset(self):
         self.entity.inAir = False
+
+#test

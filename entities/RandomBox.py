@@ -40,3 +40,6 @@ class RandomBox(EntityBase):
             (self.rect.x + cam.x, self.rect.y + 2),
         )
         self.screen.blit(self.animation.image, (self.rect.x + cam.x, self.rect.y - 1))
+
+
+# Hey There

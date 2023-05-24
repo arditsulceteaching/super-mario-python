@@ -15,3 +15,4 @@ setup(
         ("", ["settings.json"]),
     ],
 )
+harun = "harun"

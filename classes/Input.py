@@ -1,7 +1,7 @@
 import pygame
 from pygame.locals import *
 import sys
-
+# Dummy comment
 
 class Input:
     def __init__(self, entity):

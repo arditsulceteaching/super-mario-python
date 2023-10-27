@@ -2,7 +2,7 @@ from distutils.core import setup
 
 import py2exe
 import glob
-
+# hey there
 setup(
     # this is the file that is run when you start the game from the command line.
     console=["main.py"],

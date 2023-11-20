@@ -34,3 +34,6 @@ class EntityBase(object):
 
     def getPosIndexAsFloat(self):
         return Vec2D(self.rect.x / 32.0, self.rect.y / 32.0)
+
+
+ # Hey there test comment

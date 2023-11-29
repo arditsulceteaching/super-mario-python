@@ -1,6 +1,6 @@
 from pygame.transform import flip
 
-
+# Hey there
 class GoTrait:
     def __init__(self, animation, screen, camera, ent):
         self.animation = animation

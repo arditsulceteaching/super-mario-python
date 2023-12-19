@@ -1,5 +1,6 @@
 import pygame
 
+# hi there
 from classes.Animation import Animation
 from classes.Collider import Collider
 from classes.EntityCollider import EntityCollider

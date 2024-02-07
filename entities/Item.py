@@ -3,7 +3,7 @@ from copy import copy
 from classes.Dashboard import Dashboard
 from classes.Maths import Vec2D
 
-
+# Hi there
 class Item(Dashboard):
     def __init__(self, collection, screen, x, y):
         super(Item, self).__init__("./img/font.png", 8, screen)

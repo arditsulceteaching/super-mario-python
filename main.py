@@ -7,6 +7,7 @@ from entities.Mario import Mario
 
 
 windowSize = 640, 480
+# Hey there
 
 
 def main():

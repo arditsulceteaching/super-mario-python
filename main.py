@@ -6,6 +6,7 @@ from classes.Sound import Sound
 from entities.Mario import Mario
 
 
+# minor change for the sake of change
 windowSize = 640, 480
 
 

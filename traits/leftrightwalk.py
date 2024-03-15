@@ -1,11 +1,11 @@
-import random
 
 from classes.Collider import Collider
+import secrets
 
 
 class LeftRightWalkTrait:
     def __init__(self, entity, level):
-        self.direction = random.choice([-1, 1])
+        self.direction = secrets.SystemRandom().choice([-1, 1])
         self.entity = entity
         self.collDetection = Collider(self.entity, level)
         self.speed = 1

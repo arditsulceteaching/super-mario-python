@@ -39,6 +39,7 @@ def main():
 
 
 if __name__ == "__main__":
+    # Testing code for possible errors.
     exitmessage = 'restart'
     while exitmessage == 'restart':
         exitmessage = main()

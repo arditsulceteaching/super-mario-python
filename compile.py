@@ -1,4 +1,5 @@
 from distutils.core import setup
+# Hey there
 
 import py2exe
 import glob

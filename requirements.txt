@@ -1,2 +1,3 @@
-pygame==2.1.2
-scipy==1.9.3
+numpy==1.26.4
+pygame==2.5.2
+scipy==1.13.1

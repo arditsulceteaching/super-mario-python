@@ -11,7 +11,7 @@ from entities.Koopa import Koopa
 from entities.CoinBox import CoinBox
 from entities.RandomBox import RandomBox
 
-
+iamnew =1
 class Level:
     def __init__(self, screen, sound, dashboard):
         self.sprites = Sprites()

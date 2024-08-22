@@ -35,7 +35,7 @@ def main():
             mario.update()
         pygame.display.update()
         clock.tick(max_frame_rate)
-    return 'restart'
+    return 'restart....'
 
 
 if __name__ == "__main__":

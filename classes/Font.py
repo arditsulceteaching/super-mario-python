@@ -1,7 +1,7 @@
 from classes.Spritesheet import Spritesheet
 import pygame
 
-
+# Font class
 class Font(Spritesheet):
     def __init__(self, filePath, size):
         Spritesheet.__init__(self, filename=filePath)

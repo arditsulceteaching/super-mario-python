@@ -1,4 +1,4 @@
-from distutils.core import setup
+from distutils.core import setup # adding a comment
 
 import py2exe
 import glob

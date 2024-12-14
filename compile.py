@@ -15,3 +15,5 @@ setup(
         ("", ["settings.json"]),
     ],
 )
+
+##empty test

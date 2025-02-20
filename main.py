@@ -4,7 +4,7 @@ from classes.Level import Level
 from classes.Menu import Menu
 from classes.Sound import Sound
 from entities.Mario import Mario
-
+#TEST
 
 windowSize = 640, 480
 

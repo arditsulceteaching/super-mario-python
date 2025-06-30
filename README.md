@@ -4,6 +4,7 @@ This is inspired by Meth-Meth-Method's [super mario game](https://github.com/met
 
 ## Running
 
+* $ python -m pip install --upgrade pip setuptools wheel
 * $ pip install -r requirements.txt
 * $ python main.py
 

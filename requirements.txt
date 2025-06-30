@@ -1,2 +1,8 @@
-pygame==2.1.2
-scipy==1.9.3
+# Use a more flexible pygame version with prebuilt wheels
+pygame>=2.1.2
+
+# Use a newer scipy version that includes wheels
+scipy>=1.10.0
+
+# Ensure setuptools is present
+setuptools>=65.0.0

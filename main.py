@@ -10,7 +10,7 @@ windowSize = 640, 480
 
 
 def main():
-    pygame.mixer.pre_init(44100, -16, 2, 4096) # Set audio optons
+    pygame.mixer.pre_init(44100, -16, 2, 4096) # Set audio options
     pygame.init() # Initializes the library
     screen = pygame.display.set_mode(windowSize) # Create a window with the size given above
     max_frame_rate = 60

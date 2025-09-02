@@ -12,7 +12,7 @@ from traits.bounce import bounceTrait
 from traits.go import GoTrait
 from traits.jump import JumpTrait
 from classes.Pause import Pause
-
+#hey there
 spriteCollection = Sprites().spriteCollection
 smallAnimation = Animation(
     [

@@ -15,3 +15,5 @@ setup(
         ("", ["settings.json"]),
     ],
 )
+
+# Hey there, this is a comment

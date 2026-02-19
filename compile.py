@@ -1,5 +1,5 @@
-from distutils.core import setup
-
+#from distutils.core import setup
+from setuptools import setup, Extension
 import py2exe
 import glob
 

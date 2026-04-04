@@ -2,7 +2,7 @@ from copy import copy
 
 from entities.EntityBase import EntityBase
 
-
+#Adding the comment 
 class RandomBox(EntityBase):
     def __init__(self, screen, spriteCollection, x, y, item, sound, dashboard, level, gravity=0):
         super(RandomBox, self).__init__(x, y, gravity)
@@ -18,7 +18,7 @@ class RandomBox(EntityBase):
         self.vel = 1
         self.item = item
         self.level = level
-
+#Adding the comment 2
     def update(self, cam):
         if self.alive and not self.triggered:
             self.animation.update()

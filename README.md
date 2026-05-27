@@ -4,6 +4,24 @@ This is inspired by Meth-Meth-Method's [super mario game](https://github.com/met
 
 ## Running
 
+* $ py -m venv venv
+* $ .\venv\Scripts\Activate.ps1
+* $ pip install -r requirements.txt
+* $ python main.py
+
+## Workaround for Python 3.12
+
+* $ Install Microsoft C++ Build Tools, as they are necessary to compile certain Python packages.
+During installation, include the following components:  
+MSVC v142 - VS 2019 C++ x64/x86 build tools  
+Windows 10 SDK  
+C++ CMake tools for Windows  
+C++ ATL for v142 build tools (x86 & x64)  
+* $ pip install --upgrade setuptools
+* $ pip install pygame
+* $ pip install scipy
+* $ py -m venv venv
+* $ .\venv\Scripts\Activate.ps1
 * $ pip install -r requirements.txt
 * $ python main.py
 

@@ -11,3 +11,6 @@ class Tile:
             pygame.draw.rect(screen, pygame.Color(255, 0, 0), self.rect, 1)
         except Exception:
             pass
+
+
+# Hello there

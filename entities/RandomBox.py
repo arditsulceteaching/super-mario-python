@@ -1,7 +1,7 @@
 from copy import copy
 
 from entities.EntityBase import EntityBase
-
+# Hey there!
 
 class RandomBox(EntityBase):
     def __init__(self, screen, spriteCollection, x, y, item, sound, dashboard, level, gravity=0):

@@ -22,7 +22,7 @@ class EntityCollider:
                     return CollisionState(True, True)
         return CollisionState(True, False)
 
-
+# class for storing collision state
 class CollisionState:
     def __init__(self, _isColliding, _isTop):
         self.isColliding = _isColliding

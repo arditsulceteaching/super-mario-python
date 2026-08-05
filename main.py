@@ -8,7 +8,7 @@ from entities.Mario import Mario
 
 windowSize = 640, 480
 
-
+# The main function
 def main():
     pygame.mixer.pre_init(44100, -16, 2, 4096) # Set audio optons
     pygame.init() # Initializes the library
@@ -38,6 +38,7 @@ def main():
     return 'restart'
 
 
+# Run this if the code is being run in this file
 if __name__ == "__main__":
     exitmessage = 'restart'
     while exitmessage == 'restart':

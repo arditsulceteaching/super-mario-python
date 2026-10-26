@@ -1,3 +1,4 @@
+# This is a comment
 import pygame
 from classes.Dashboard import Dashboard
 from classes.Level import Level
